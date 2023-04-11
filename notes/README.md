@@ -83,7 +83,7 @@ Karvonen, 2021, which we refer to below as the [C3][] paper.
      - **three-party broadcasting** (limits what can be achieved in a symmetric monoidal category)
 
 
-
+-------------------------------------------------------
 
 ## Table of concepts in papers and agda-categories library
 
