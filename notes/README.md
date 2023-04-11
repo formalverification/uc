@@ -21,7 +21,7 @@ Source: https://input-output.atlassian.net/wiki/spaces/FM/pages/3513876547/Unive
 
 ### Categorical composable cryptography
 
-This section contains notes on the paper [Categorical composable cryptography][], by Broadbent, Martti 
+This section contains notes on the paper [Categorical composable cryptography][], by Broadbent, Martti
 Karvonen, 2021, which we refer to below as the [C3][] paper.
 
 +  **Intro of [C3][]**.
@@ -87,7 +87,7 @@ Karvonen, 2021, which we refer to below as the [C3][] paper.
 
 ## Table of concepts in papers and agda-categories library
 
-| Concept in [C3][] paper              |  Agda implementation                         |
+| Concept in [C3][] paper              |  Agda implementation in [agda-categories][]  |
 |--------------------------------------|----------------------------------------------|
 | [Cartesian closed category][]        | [Category/CartesianClosed/Canonical.agda][]  |
 | [compact closed category][]          | [Category/Monoidal/CompactClosed.agda][]     |
@@ -152,21 +152,29 @@ In: Advances in Cryptology—EUROCRYPT 2010. pp. 486–505 (2010).](https://link
 
 
 
-[Abstract Cryptography]: https://crypto.ethz.ch/publications/files/MauRen11.pdf
-[Causal Boxes: Quantum Information-Processing Systems Closed under Composition]: https://arxiv.org/pdf/1512.02240
-[Toward an Algebraic Theory of Systems]: https://arxiv.org/abs/1609.04293
-[Categorical composable cryptography]: https://arxiv.org/abs/2105.05949
-[C3]: https://arxiv.org/abs/2105.05949
-[From Indifferentiability to Constructive Cryptography]: https://eprint.iacr.org/2016/903.pdf
-[CryptHOL: Game-based Proofs in Higher-order Logic]: https://eprint.iacr.org/2017/753.pdf
-[Synchronous Constructive Cryptography]: https://eprint.iacr.org/2020/1226
 [A Unified and Composable Take on Ratcheting]: https://eprint.iacr.org/2019/694
+[Abstract Cryptography]: https://crypto.ethz.ch/publications/files/MauRen11.pdf
+[agda-categories]: https://github.com/agda/agda-categories/
 
-[compact closed category]: https://ncatlab.org/nlab/show/compact+closed+category
+[C3]: https://arxiv.org/abs/2105.05949
 [Cartesian closed category]: https://ncatlab.org/nlab/show/cartesian+closed+category
-[Kleisli category]: https://ncatlab.org/nlab/show/Kleisli+category
-[symmetric monoidal category]: https://ncatlab.org/nlab/show/symmetric+monoidal+category
+[Categorical composable cryptography]: https://arxiv.org/abs/2105.05949
+[Causal Boxes: Quantum Information-Processing Systems Closed under Composition]: https://arxiv.org/pdf/1512.02240
+[compact closed category]: https://ncatlab.org/nlab/show/compact+closed+category
+[CryptHOL: Game-based Proofs in Higher-order Logic]: https://eprint.iacr.org/2017/753.pdf
 
+
+[From Indifferentiability to Constructive Cryptography]: https://eprint.iacr.org/2016/903.pdf
+
+[Kleisli category]: https://ncatlab.org/nlab/show/Kleisli+category
+
+[symmetric monoidal category]: https://ncatlab.org/nlab/show/symmetric+monoidal+category
+[Synchronous Constructive Cryptography]: https://eprint.iacr.org/2020/1226
+
+[Toward an Algebraic Theory of Systems]: https://arxiv.org/abs/1609.04293
+
+
+<!-- Agda module links -->
 [Category/CartesianClosed/Canonical.agda]: https://github.com/agda/agda-categories/blob/master/src/Categories/Category/CartesianClosed/Canonical.agda
 [Category/Monoidal/Symmetric.agda]: https://github.com/agda/agda-categories/blob/master/src/Categories/Category/Monoidal/Symmetric.agda
 [Category/Monoidal/CompactClosed.agda]: https://github.com/agda/agda-categories/blob/master/src/Categories/Category/Monoidal/CompactClosed.agda
