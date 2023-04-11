@@ -70,7 +70,7 @@ Karvonen, 2021, which we refer to below as the [C3][] paper.
 
   - formalizes the simulation paradigm in terms of an abstract attack model (Def 1).
 
-  - design is general enough to capture standard attack models yet structured enough to guarantee composability.
+- design is general enough to capture standard attack models yet structured enough to guarantee composability.
 
   - [C3][] **Cor 1** . for every set of attack models, the class of protocols secure against each of them yields a
     symmetric monoidal category.
@@ -87,7 +87,7 @@ Karvonen, 2021, which we refer to below as the [C3][] paper.
 
 ## Table of concepts in papers and agda-categories library
 
-| Concept in paper                     |  Agda implementation                         |
+| Concept in [C3][] paper              |  Agda implementation                         |
 |--------------------------------------|----------------------------------------------|
 | [Cartesian closed category][]        | [Category/CartesianClosed/Canonical.agda][]  |
 | [compact closed category][]          | [Category/Monoidal/CompactClosed.agda][]     |
@@ -95,51 +95,56 @@ Karvonen, 2021, which we refer to below as the [C3][] paper.
 | [Grothendieck construction][]        | [Category.Construction.Grothendieck][]       |
 
 
+-----------------------------------------------------
+-----------------------------------------------------
 
+## References
 
-## 20
+### References from [C3][] paper
+
+#### 20
 
 [Coecke, B., Fritz, T., Spekkens, R.W.: A mathematical theory
 of resources. Information and Computation 250, 59–86 (2016).](https://doi.org/10.1016/j.ic.2016.02.008)
 
-## 23
+#### 23
 
 [Cruttwell, G., Gavranovi´c, B., Ghani, N., Wilson, P., Zanasi, F.: Categorical foundations of gradient-based learning (2021).](https://arxiv.org/abs/2103.01931)
 
-## 31
+#### 31
 
 [Fong, B., Spivak, D., Tuyeras, R.: Backprop as functor: A compositional perspective on supervised learning. In: 2019 34th Annual ACM/IEEE Symposium on Logic
 in Computer Science (LICS) (2019).](https://doi.org/10.1109/lics.2019.8785665)
 
 
-## 33
+#### 33
 
 [Gavranovi´c, B.: Compositional deep learning (2019).](https://arxiv.org/abs/1907.08292)
 
-## 46
+#### 46
 
 [Matt, C., Maurer, U., Portmann, C., Renner, R., Tackmann, B.: Toward an
 algebraic theory of systems. Theoretical Computer Science 747, 1–25 (2018).](https://doi.org/10.1016/j.tcs.2018.06.001)
 
-## 47
+#### 47
 
 [Maurer, U.: Constructive cryptography–a new paradigm for security definitions
 and proofs. In: Joint Workshop on Theory of Security and Applications—TOSCA 2011. pp. 33–56 (2011).](https://doi.org/10.1007/978-3-642-27375-9_3)
 
-## 48
+#### 48
 
 Maurer, U., Renner, R.: Abstract cryptography. In: Innovations in Computer Science—ICS 2011 (2011).
 
-## 53
+#### 53
 
 Moeller, J., Vasilakopoulou, C.: Monoidal Grothendieck construction. Theory and Applications of Categories 35(31), 1159–1207 (2020).
 
-## 61
+#### 61
 
 [Prabhakaran, M., Rosulek, M.: Cryptographic complexity of multi-party computation problems: Classifications and separations. In: Advances in Cryptology—
 CRYPTO 2008. pp. 262–279 (2008).](https://doi.org/10.1007/978-3-540-85174-5_15)
 
-## 68
+#### 68
 
 [Unruh, D.: Universally composable quantum multi-party computation.
 In: Advances in Cryptology—EUROCRYPT 2010. pp. 486–505 (2010).](https://link.springer.com/chapter/10.1007/978-3-642-13190-5_25)
