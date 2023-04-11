@@ -19,6 +19,10 @@ Source: https://input-output.atlassian.net/wiki/spaces/FM/pages/3513876547/Unive
 - [ ] [A Unified and Composable Take on Ratcheting][], Jost, Maurer, and Mularczyk, 2019.
 
 
+-------------------------------------------
+
+## Notes from the papers
+
 ### Categorical composable cryptography
 
 This section contains notes on the paper [Categorical composable cryptography][], by Broadbent, Martti
